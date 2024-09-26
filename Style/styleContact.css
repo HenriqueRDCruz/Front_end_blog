@@ -1,27 +1,21 @@
 body {
     background-color: #f8f9fa;
-    /* Cor de fundo suave */
 }
 
 .header-footer {
     background-color: #e9ecef;
-    /* Cor de fundo do cabeçalho e rodapé */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     color: #333;
-    /* Cor do título */
     margin-bottom: 30px;
-    /* Espaço abaixo do título */
 }
 
 .form-control {
     border-radius: 25px;
-    /* Bordas arredondadas */
 }
 
 .btn {
     border-radius: 25px;
-    /* Bordas arredondadas nos botões */
 }

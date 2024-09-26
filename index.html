@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Pessoal</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style/styleIndex.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand">Descomplicando</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="Contact/contact.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção principal -->
+    <main class="container mt-5">
+        <div class="row">
+            <section class="col-md-8">
+                <article class="card mb-4">
+                    <img class="card-img-top" src="Image/Windows-Logo.png" alt="Logo Windows 10">
+                    <div class="card-body">
+                        <h2 class="card-title">Guia de Instalação do Windows</h2>
+                        <p class="card-text">Neste artigo, você aprenderá o processo passo a passo para instalar o
+                            Windows, desde o download da ISO até a configuração final do sistema.</p>
+                        <a href="Posts/post1.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </article>
+
+                <article class="card mb-4">
+                    <img class="card-img-top" src="Image/Linux-Logo.png" alt="Logo Linux Ubuntu">
+                    <div class="card-body">
+                        <h2 class="card-title">Guia de Instalação do Linux (Ubuntu)</h2>
+                        <p class="card-text">Aprenda como instalar o Ubuntu, uma das distribuições Linux mais populares,
+                            com este guia fácil e direto ao ponto.</p>
+                        <a href="Posts/post2.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </article>
+
+                <article class="card mb-4">
+                    <img class="card-img-top" src="Image/Mysql-Logo.png" alt="Logo MySQL">
+                    <div class="card-body">
+                        <h2 class="card-title">Guia de Instalação do MySQL</h2>
+                        <p class="card-text">Este tutorial vai te guiar pelo processo de instalação do MySQL tanto no
+                            Windows quanto no Linux, garantindo que você configure tudo corretamente.</p>
+                        <a href="Posts/post3.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="col-md-4">
+                <section class="card my-4">
+                    <h5 class="card-header">Busca</h5>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar por...">
+                            <button class="btn btn-secondary" type="button">Buscar</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card my-4">
+                    <h5 class="card-header">Categorias</h5>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a href="Posts/post1.html">Instalação Windows</a></li>
+                            <li><a href="Posts/post2.html">Instalação Linux</a></li>
+                            <li><a href="Posts/post3.html">Instalação MySQL</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="py-4 bg-light">
+        <div class="container">
+            <p class="text-center">© 2024 Blog Descomplicando</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.img-custom {
+    max-width: 150px;
+    /* Tamanho reduzido */
+    margin: 0 auto;
+    /* Centraliza a imagem */
+    display: block;
+    /* Centraliza a imagem */
+}
+
+h1,
+h2 {
+    color: #333;
+    /* Cor do título */
+}
+
+p.lead {
+    font-size: 1.2rem;
+    /* Tamanho do texto da introdução */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* Bordas arredondadas para itens da lista */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-footer {
+    background-color: #e9ecef;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    /* Remove margens do texto do rodapé */
+}
+
+pre {
+    background-color: #f8f9fa;
+    /* Fundo para o bloco de código */
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}

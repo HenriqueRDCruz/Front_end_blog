@@ -21,10 +21,9 @@ O blog possui três páginas principais:
 - **Bootstrap**
 - **JavaScript**
 
-## Instruções para Rodar Localmente
+## Instruções de Execução
 1. Faça o download ou clone este repositório.
 2. Abra o arquivo `index.html` em qualquer navegador web.
-3. Navegue pelas postagens e páginas de contato através do menu de navegação no topo da página.
 
 ## Melhorias Futuras
 - Adicionar mais tutoriais verídicos e não fictícios.
